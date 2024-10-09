@@ -1,0 +1,93 @@
+Start
+#Declare
+Var int: {deret,
+          i = 1,
+          j = i,
+          k = 0}
+#example input deret = 4
+Input deret
+#deret = 4
+1. i = 1
+   i < deret
+   1 < 4 TRUE
+   j = 1
+   j < deret
+   j = 1
+   1 < 4 TRUE      +
+   j++
+   j = 2
+   2 < 4 TRUE      ++
+   j++
+   j = 3
+   3 < 4 TRUE      +++
+   j++
+   j = 4
+   4 < 4 FALSE
+   k < i
+   0 < 1 TRUE      +++*
+   k++
+   k = 1
+   1 < 1 FALSE
+   /n
+   i++
+2. i = 2
+   i < deret
+   2 < 4 TRUE
+   j = 2
+   j < deret
+   2 < 4 TRUE      +++*
+                   +
+   j++
+   j = 3
+   3 < 4 TRUE      +++*
+                   ++
+   j++
+   j = 4
+   4 < 4 FALSE
+   k = 0
+   0 < 2 TRUE       +++*
+                    ++*
+   k++
+   k = 1
+   1 < 2 TRUE       +++*
+                    ++**
+   k++
+   k = 2
+   2 < 2 FALSE
+   /n
+   i++
+3. i = 3
+   i < deret
+   3 < 4 TRUE
+   j = 3
+   j < deret
+   3 < 4 TRUE       +++*
+                    ++**
+                    +
+   j++
+   j = 4
+   4 < 4 FALSE
+   k = 0
+   k < i
+   0 < 3 TRUE       +++*
+                    ++**
+                    +*
+   k++
+   k = 1
+   1 < 3 TRUE       +++*
+                    ++**
+                    +**
+   k++
+   k = 2
+   2 < 3  TRUE      +++*
+                    ++**
+                    +***
+   k++
+   k = 3
+   3 < 3 FALSE
+   /n
+   i++
+4. i = 4
+   i < deret
+   4 < 4 FALSE
+END
