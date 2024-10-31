@@ -90,8 +90,8 @@
         <mxCell id="3Lcee3zLkT0hhcQbIgp8-4" value="binary_value = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="718" y="475" width="108.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3Lcee3zLkT0hhcQbIgp8-6" value="ascii_code &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="580" width="93" height="90" as="geometry" />
+        <mxCell id="3Lcee3zLkT0hhcQbIgp8-9" value="remain = ascii_code % 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="558" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
