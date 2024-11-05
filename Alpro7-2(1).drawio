@@ -1,17 +1,96 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="AUyk0-Y5rX6EvpcSwYz0">
-    <mxGraphModel dx="435" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="725" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="83qTVQwGWhM2EYCyVJ-e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83qTVQwGWhM2EYCyVJ-e-1" target="83qTVQwGWhM2EYCyVJ-e-2">
+        <mxCell id="83qTVQwGWhM2EYCyVJ-e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="83qTVQwGWhM2EYCyVJ-e-1" target="83qTVQwGWhM2EYCyVJ-e-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="83qTVQwGWhM2EYCyVJ-e-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="83qTVQwGWhM2EYCyVJ-e-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="20" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="83qTVQwGWhM2EYCyVJ-e-2" value="str: reverse_str&lt;div&gt;sstack=[]&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="rsadkTi_ru5483H-cAFk-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="83qTVQwGWhM2EYCyVJ-e-2" target="rsadkTi_ru5483H-cAFk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83qTVQwGWhM2EYCyVJ-e-2" value="str: input_str, reverse_str = &#39;&#39;&lt;div&gt;stack=[]&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="362.5" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-1" target="rsadkTi_ru5483H-cAFk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-1" target="rsadkTi_ru5483H-cAFk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-1" value="is there character in input_str" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-3" target="rsadkTi_ru5483H-cAFk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-3" value="append character to stack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-5" target="rsadkTi_ru5483H-cAFk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-5" value="input:&lt;div&gt;input_str&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-12" target="rsadkTi_ru5483H-cAFk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-12" value="output:&lt;div&gt;stack&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="415" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-31" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-20" target="rsadkTi_ru5483H-cAFk-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-38" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-20" target="rsadkTi_ru5483H-cAFk-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-20" value="len(stack) &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-22" value="Y" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-23" value="N" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-30" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-25" target="rsadkTi_ru5483H-cAFk-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-25" value="Pop from stack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-36" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="257" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-26" value="Append to reverse_str" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="rsadkTi_ru5483H-cAFk-37" target="rsadkTi_ru5483H-cAFk-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-37" value="Print reverse_str" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-39" value="Y" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rsadkTi_ru5483H-cAFk-40" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
