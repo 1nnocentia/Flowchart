@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="nwW1Nv_e_0HNPiKD8-lj">
-    <mxGraphModel dx="870" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="348" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="DbCzOoighglqBJwEHdBy-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="DbCzOoighglqBJwEHdBy-4" target="DbCzOoighglqBJwEHdBy-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DbCzOoighglqBJwEHdBy-4" value="int: n, input_num&lt;div&gt;num = []&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="DbCzOoighglqBJwEHdBy-4" value="int: n, input_num, j, k&lt;div&gt;num = []&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="362.5" y="90" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DbCzOoighglqBJwEHdBy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbCzOoighglqBJwEHdBy-6" target="DbCzOoighglqBJwEHdBy-9">
