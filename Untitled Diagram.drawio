@@ -75,7 +75,7 @@
         <mxCell id="DbCzOoighglqBJwEHdBy-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DbCzOoighglqBJwEHdBy-20" target="DbCzOoighglqBJwEHdBy-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DbCzOoighglqBJwEHdBy-20" value="stack[j] &amp;lt;= stack[k]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbCzOoighglqBJwEHdBy-20" value="stack[j] &amp;gt;= stack[k]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DbCzOoighglqBJwEHdBy-22" value="Y" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
