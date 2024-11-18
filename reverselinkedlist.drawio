@@ -10,14 +10,29 @@
         <mxCell id="Q2bTffW69Mqj-ef85BlH-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="50" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Q2bTffW69Mqj-ef85BlH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q2bTffW69Mqj-ef85BlH-2" target="Q2bTffW69Mqj-ef85BlH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Q2bTffW69Mqj-ef85BlH-2" value="int: linked_list = [1,2,8,9,12,16],&lt;div&gt;output = [], i, j = 0&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2bTffW69Mqj-ef85BlH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q2bTffW69Mqj-ef85BlH-4" target="Q2bTffW69Mqj-ef85BlH-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q2bTffW69Mqj-ef85BlH-4" value="j &amp;lt; len(linked_list)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="250" width="120" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="Q2bTffW69Mqj-ef85BlH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q2bTffW69Mqj-ef85BlH-7" target="Q2bTffW69Mqj-ef85BlH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Q2bTffW69Mqj-ef85BlH-7" value="i % == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="410" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2bTffW69Mqj-ef85BlH-8" value="output = [i] + output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2bTffW69Mqj-ef85BlH-9" value="output = output + [i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
