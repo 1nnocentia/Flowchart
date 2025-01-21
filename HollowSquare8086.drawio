@@ -10,7 +10,7 @@
         <mxCell id="q7fIM0WBCql1DajR6492-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="30" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="q7fIM0WBCql1DajR6492-2" value="int: row, col = 1&lt;div&gt;a = &#39;*&#39;&lt;/div&gt;&lt;div&gt;b = &#39; &#39;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="q7fIM0WBCql1DajR6492-2" value="int: row, col, iter = 1&lt;div&gt;a = &#39;*&#39;&lt;/div&gt;&lt;div&gt;b = &#39; &#39;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="110" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
